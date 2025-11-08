@@ -82,3 +82,18 @@ fila.splice(1,0,"jorge"); // lo que entendi es que el 1 es la posicion y el 0 ag
 
 console.log(fila);
 
+//### Ejercicio 6: Mazo de Cartas
+//
+//Inicias con un pequeño mazo:
+//`let mazo = ["As", "Rey", "Reina", "Jota"];`
+//
+//**Tareas:**
+//1.  Barajas el mazo invirtiendo el orden de las cartas.
+//2.  Sacas la carta de arriba (el primer elemento).
+
+let mazo = ["As", "Rey", "Reina", "Jota"];
+
+mazo.reverse();
+mazo.shift(); //teniendo en cuenta que esta en reverse en este caso el eliminado seria "jota"
+
+console.log(mazo);
