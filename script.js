@@ -141,3 +141,18 @@ estudiantes.sort(); //recordar que es solo el primer valor en este caso la letra
 
 console.log(estudiantes);
 
+//### Ejercicio 10: Vaciar un Arreglo (Fill)
+//
+//Inicias con una lista de puntuaciones:
+//`let puntuaciones = [100, 85, 92, 78];`
+//
+//**Tareas:**
+//1.  El juego se resetea. Cambia **TODOS** los elementos del arreglo a `0` usando `fill`.
+
+let puntuaciones = [100, 85, 92, 78];
+
+puntuaciones.fill("0"); //solo debes poner el producto entre comillas y va a reemplazar todos los valores de vector 
+
+console.log(puntuaciones);
+
+
