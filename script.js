@@ -173,5 +173,25 @@ carrito.splice(1,1);
 
 console.log(carrito);
 
+//### Ejercicio 12: Control de Versiones (Simple)
+//
+//Inicias con los cambios guardados:
+//`let commits = ["v1.0", "v1.1"];`
+//
+//**Tareas:**
+//1.  Haces un nuevo guardado: "v1.2". Añádelo al final.
+//2.  Te das cuenta de que "v1.2" tiene un error. Deshaz el último commit (elimínalo del final).
+//3.  Haces un nuevo guardado corregido: "v1.2-corregido". Añádelo al final.
+
+let commits = ["v1.0", "v1.1"];
+
+commits.push("v1.2");
+commits.pop();
+commits.push("v1.2-corregido");
+
+console.log(commits);
+
+
+
 
 
