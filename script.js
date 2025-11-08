@@ -112,3 +112,18 @@ let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];
 asientos.fill("reservado",1,4); //lo que entiendo es que debes poner primero el valor a cambiar luego el inicio que seria 1 en este caso y el fin que seria 4 en este caso 
 
 console.log(asientos);
+
+//### Ejercicio 8: Reemplazar Elemento
+//
+//Inicias con una lista de productos:
+//`let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];`
+//
+//**Tareas:**
+//1.  El "Mouse Roto" (posición 2) debe ser reemplazado. Cámbialo por "Mouse Nuevo" usando `splice`.
+
+let productos = ["Monitor", "Teclado", "Mouse Roto", "Webcam"];
+
+productos.splice(2,1,"mouse nuevo");  //para reemplazar un valor debes eliminarlo primero y luego reemplazarlo 
+
+console.log(productos);
+
