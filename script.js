@@ -127,3 +127,17 @@ productos.splice(2,1,"mouse nuevo");  //para reemplazar un valor debes eliminarl
 
 console.log(productos);
 
+//### Ejercicio 9: Orden Alfabético (Sort)
+//
+//Inicias con una lista de estudiantes desordenada:
+//`let estudiantes = ["Zapata", "Alvarez", "Gomez", "Bernal"];`
+//
+//**Tareas:**
+//1.  Ordena la lista de estudiantes alfabéticamente.
+
+let estudiantes = ["Zapata", "Alvarez","Alvarado", "Gomez", "Bernal","Abril"];
+
+estudiantes.sort(); //recordar que es solo el primer valor en este caso la letra inicial (en el caso de texto al parecer si ordena en orden alfabetico teniendo en cuenta las siguientes letras)
+
+console.log(estudiantes);
+
