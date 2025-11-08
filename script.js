@@ -254,3 +254,19 @@ parking.shift(0,1);
 parking.splice(0,2,"MotoA","MotoB");
 
 console.log(parking);
+
+//### Ejercicio 17: Manejo de Feed (Red Social)
+//
+//Inicias con publicaciones en un feed:
+//`let feed = ["Foto de Ana", "Video de Juan", "Noticia de Empresa"];`
+//
+//**Tareas:**
+//1.  Llega una nueva publicación urgente: "Alerta de Sistema". Debe ir al **INICIO**.
+//2.  La publicación más antigua ("Noticia de Empresa") ya no es relevante. Elimínala del **FINAL**.
+
+let feed = ["Foto de Ana", "Video de Juan", "Noticia de Empresa"];
+
+feed.unshift("Alerta de Sistema");
+feed.pop();
+
+console.log(feed);
