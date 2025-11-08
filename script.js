@@ -65,3 +65,20 @@ colaImpresion.push("doc4.txt");
 colaImpresion.shift();
 
 console.log(colaImpresion);
+
+//### Ejercicio 5: Fila del Banco (Splice)
+//
+//Inicias con la siguiente fila:
+//`;`let fila = ["Ana", "Luis", "Carlos", "Maria"]
+//
+//**Tareas:**
+//1.  "Luis" (posición 1) se cansa y se va. Elimínalo.
+//2.  "Jorge" se cuela en la fila y se pone justo después de "Ana" (en la nueva posición 1). Insértalo sin eliminar a nadie.
+
+let fila = ["Ana", "Luis", "Carlos", "Maria"];
+
+fila.splice(1,1); //lo que entendi es que el 1 es de la posicion en el vector y el 1 es para eliminar
+fila.splice(1,0,"jorge"); // lo que entendi es que el 1 es la posicion y el 0 agrega objetos despues de la posicion indicada y en comillas dices que objeto vas a insertar
+
+console.log(fila);
+
