@@ -155,4 +155,23 @@ puntuaciones.fill("0"); //solo debes poner el producto entre comillas y va a ree
 
 console.log(puntuaciones);
 
+//### Ejercicio 11: Carrito de Compras (Combinado)
+//
+//Inicias con un carrito vacío:
+//`let carrito = [];`
+//
+//**Tareas:**
+//1.  Añade "Camisa" y "Pantalón" al final.
+//2.  Añade "Zapatos" al inicio.
+//3.  Revisas el carrito y decides no comprar la "Camisa" (ahora en posición 1). Elimínala.
+
+let carrito = [];
+
+carrito.push("camisa","pantalon");
+carrito.unshift("zapatos");
+carrito.splice(1,1);
+
+console.log(carrito);
+
+
 
