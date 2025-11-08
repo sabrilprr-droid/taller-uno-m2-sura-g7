@@ -33,3 +33,18 @@ tareas.shift(); // se retira la ultima tarea que entro en este caso es "preparar
 tareas.shift(); // se retira la ultima tarea que entro en este caso es "llamar al cliente"
 
 console.log(tareas);
+
+//### Ejercicio 3: Pila de Historial (LIFO)
+//
+//Inicias con el historial:
+//`let historial = ["google.com", "youtube.com", "facebook.com"];`
+//
+//**Tareas:**
+//1.  Se requiere deshacer la última acción. Elimina el **ÚLTIMO** elemento del historial.
+//2.  Se requiere deshacer la acción anterior. Elimina el **ÚLTIMO** elemento restante.
+
+let historial = ["google.com", "youtube.com", "facebook.com"];
+historial.pop(); //se retira el ultimo registro de historial en este caso "facebook"
+historial.pop(); //se retira el ultimo registro de historial en este caso "youtube.com"
+
+console.log(historial);
