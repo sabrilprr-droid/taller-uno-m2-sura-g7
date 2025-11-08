@@ -97,3 +97,18 @@ mazo.reverse();
 mazo.shift(); //teniendo en cuenta que esta en reverse en este caso el eliminado seria "jota"
 
 console.log(mazo);
+
+//### Ejercicio 7: Gestión de Asientos de Cine
+//
+//Inicias con el estado de una fila de asientos:
+//`let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];`
+//
+//**Tareas:**
+//1.  Las tres personas en los asientos "Libre" (posiciones 1, 2 y 3) deben moverse. Cambia esos tres asientos a "Reservado".
+//    (Pista: `fill` puede usar un índice de inicio y fin).
+
+let asientos = ["Ocupado", "Libre", "Libre", "Libre", "Ocupado"];
+
+asientos.fill("reservado",1,4); //lo que entiendo es que debes poner primero el valor a cambiar luego el inicio que seria 1 en este caso y el fin que seria 4 en este caso 
+
+console.log(asientos);
